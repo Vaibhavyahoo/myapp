@@ -27,10 +27,10 @@ public class Inheritance
 {
 	public static void main(String []args)
 	{
-		Whatsappv1 v1=new Whatsappv1();
+		Whatsappv3 v1=new Whatsappv3();
 		v1.texting();
-      		//v1.multimedia();
-		//v1.calling();
+      		v1.multimedia();
+		v1.calling();
 	}
 }
 
